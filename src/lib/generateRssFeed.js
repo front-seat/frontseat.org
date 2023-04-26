@@ -57,6 +57,6 @@ export async function generateRssFeed() {
     })
   }
 
-  await mkdir('./public/rss', { recursive: true })
-  await writeFile('./public/rss/feed.xml', feed.rss2(), 'utf8')
+  await mkdir('./out/rss', { recursive: true })
+  await writeFile('./out/rss/feed.xml', feed.rss2(), 'utf8')
 }
