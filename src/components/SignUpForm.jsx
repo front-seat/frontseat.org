@@ -40,7 +40,7 @@ export function SignUpForm() {
         name="Email"
         id={id}
         placeholder="Your email address"
-        className="peer w-0 flex-auto bg-transparent px-4 py-2.5 text-xs text-white placeholder:text-gray-500 focus:outline-none sm:text-[0.8125rem]/6"
+        className="peer w-0 flex-auto bg-transparent px-4 py-2.5 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-[1rem]/6"
       />
       <Button type="submit" arrow className="text-xs sm:text-[0.8125rem]/6">
         Get updates

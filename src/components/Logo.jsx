@@ -6,7 +6,7 @@ export function Logo(props) {
 
   return (
     <div className="flex items-center space-x-4">
-      <h1 className="font-sans text-4xl font-black text-white">Front Seat</h1>
+      <h1 className="font-sans text-5xl font-black text-white">Front Seat</h1>
     </div>
   )
 }

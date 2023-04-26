@@ -50,15 +50,15 @@
   }
 
   color: var(--typography-body);
-  font-size: theme(fontSize.sm);
-  line-height: theme(lineHeight.6);
+  font-size: theme(fontSize.lg);
+  line-height: theme(lineHeight.7);
 
   h2 {
     font-family: theme(fontFamily.display);
     color: var(--typography-headings);
     font-weight: theme(fontWeight.semibold);
-    font-size: theme(fontSize.xl);
-    line-height: theme(lineHeight.8);
+    font-size: theme(fontSize.3xl);
+    line-height: theme(lineHeight.10);
   }
 
   /* Headings */
@@ -73,7 +73,7 @@
     column-gap: theme(gap.3);
   }
 
-  h3 > svg {
+  h3>svg {
     flex: none;
     width: theme(width.4);
     height: theme(height.4);
@@ -199,7 +199,7 @@
     color: theme(colors.gray.400);
   }
 
-  ol > li::marker {
+  ol>li::marker {
     font-size: theme(fontSize.xs);
     font-weight: theme(fontWeight.semibold);
   }
@@ -246,7 +246,7 @@
   }
 
   /* Spacing */
-  > * {
+  >* {
     margin-top: theme(margin.6);
   }
 
@@ -262,24 +262,24 @@
     margin-top: theme(margin.4);
   }
 
-  li > :is(p, ol, ul) {
+  li> :is(p, ol, ul) {
     margin-top: theme(margin.4);
   }
 
-  :is(h2, h3, h4) + * {
+  :is(h2, h3, h4)+* {
     margin-top: theme(margin.4);
   }
 
-  :is(blockquote, pre, table) + * {
+  :is(blockquote, pre, table)+* {
     margin-top: theme(margin.8);
   }
 
-  hr + * {
+  hr+* {
     margin-top: theme(margin.16);
   }
 
   > :first-child,
-  li > :first-child {
+  li> :first-child {
     margin-top: 0;
   }
 }

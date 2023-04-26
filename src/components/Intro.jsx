@@ -52,7 +52,7 @@ export function Intro() {
         Experiments in <span className="text-sky-300">tech for good</span> since
         2023.
       </h1>
-      <p className="mb-10 text-sm/6 text-gray-300">
+      <p className="mb-10 text-lg/7 text-gray-300">
         We're a{' '}
         <a
           href="#welcome-to-front-seat"

@@ -18,7 +18,11 @@ export default function App({ Component, pageProps }) {
           content="Front Seat is a small team of designers and developers that are building tech for good prototypes in public."
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;900&family=Work+Sans:wght@400;600;800&display=swap"
           rel="stylesheet"
