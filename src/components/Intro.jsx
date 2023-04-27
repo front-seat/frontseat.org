@@ -55,7 +55,7 @@ export function Intro() {
       <p className="mb-10 text-lg/7 text-gray-300">
         We're a{' '}
         <a
-          href="#welcome-to-front-seat"
+          href="#an-introduction"
           className="text-sky-300 transition-colors hover:text-sky-200"
         >
           small team
