@@ -48,7 +48,7 @@ export function Intro() {
           <Logo className="inline-block h-8 w-auto" />
         </Link>
       </div>
-      <h1 className="my-10 font-sans text-4xl/tight font-semibold text-gray-100">
+      <h1 className="mt-14 mb-10 font-sans text-4xl/tight font-semibold text-gray-100">
         Experiments in <span className="text-sky-300">tech for good</span> since
         2023.
       </h1>
