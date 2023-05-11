@@ -12,6 +12,11 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FBYND04F8T"
+        ></script>
+        <script src="/js/ga.js"></script>
         <title>Front Seat - building tech for good.</title>
         <meta
           name="description"
