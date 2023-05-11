@@ -2,11 +2,9 @@
 
 This is the static website behind https://frontseat.org
 
-It is a [NextJS](https://nextjs.org) site built using [Tailwind CSS](https://tailwindcss.com). It is hosted via 
+It is a [NextJS](https://nextjs.org) site built using [Tailwind CSS](https://tailwindcss.com). It is hosted via [Github Pages](https://pages.github.com/) and is deployed automatically via [GitHub Actions](https://github.com/features/actions) any time a change is made to the `main` branch. (That is: if you want to change stuff on our website, you can do it, right here, in the GitHub web UI.)
 
-It is styled as a "changelog": we want to build our experiments in public, so this is where we'll make tiny announcements of the things we're working on and/or have shipped. This is how all the cool nerdy kids are doing things these days!
-
-When changes are made to the `main` branch, GitHub actions are configured to automatically build the site and deploy to the public Internet. As a result, major changes should probably happen in a pull request that gets checked and merged.
+It is currently styled as a "changelog" aka a lightweight, single-page blog. We want to build our experiments in public, so this is where we'll make tiny announcements of the things we're working on and/or have shipped. Changelogs are how all the cool nerdy kids are doing things these days, but we can quickly modify the site to suit whatever needs we foresee.
 
 ## Local development
 
