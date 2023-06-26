@@ -49,8 +49,7 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 mb-10 font-sans text-4xl/tight font-semibold text-gray-100">
-        Experiments in <span className="text-sky-300">tech for good</span> since
-        2023.
+        Experiments in <span className="text-sky-300">tech for good.</span>
       </h1>
       <p className="mb-10 text-lg/7 text-gray-300">
         We're a{' '}
