@@ -60,7 +60,7 @@ export function Intro() {
           small team
         </a>{' '}
         currently prototyping new projects. To follow along, subscribe to our
-        newsletter or our feed.
+        newsletter.
       </p>
       <SignUpForm />
       <div className="mt-10 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
