@@ -2,27 +2,35 @@
 import Page from "../layouts/Page.astro";
 ---
 
-<Page class="m-0 p-0 bg-darkest text-almost font-switzer leading-normal">
+<Page
+  class="m-0 p-0 bg-almost text-dark dark:bg-dark dark:text-almost font-switzer leading-normal"
+>
   <div class="mx-4 md:mx-auto md:max-w-[700px]">
     <div class="pt-12 pb-6 md:pt-24 md:pb-12 max-w-[500px]">
-      <h1 class="font-plein font-bold text-8xl md:text-9xl text-sun">
+      <h1
+        class="font-plein font-bold text-8xl md:text-9xl text-moon dark:text-sun"
+      >
         Front<br />Seat
       </h1>
-      <h2 class="py-8 text-2xl md:text-4xl text-medium">
-        Experiments in <span class="text-light-medium">tech for good</span>
+      <h2 class="py-8 text-2xl md:text-4xl text-medium dark:text-medium">
+        Experiments in <span class="text-dark dark:text-light-medium"
+          >tech for good</span
+        >
       </h2>
     </div>
     <div
-      class="pt-10 pb-24 md:pt-20 md:pb-48 text-xl md:text-2xl text-almost/80 font-switzer space-y-8 border-t border-t-dark"
+      class="pt-10 pb-24 md:pt-20 md:pb-48 text-xl md:text-2xl text-dark/80 dark:text-almost/80 font-switzer space-y-8 border-t border-t-dark-almost dark:border-t-dark"
     >
-      <p class="font-plein font-bold text-sun text-2xl md:text-3xl">
-        Hello. 👋
+      <p
+        class="font-plein font-bold text-moon dark:text-sun text-2xl md:text-3xl"
+      >
+        Hello. <span>👋</span>
       </p>
       <p>
         We're <a
           href="https://www.linkedin.com/in/mikemathieu"
           target="_blank"
-          class="underline hover:text-sun transition-colors duration-200"
+          class="underline hover:text-moon dark:hover:text-sun transition-colors duration-200"
           ><img
             class="w-6 h-6 rounded-full inline mx-1 align-middle"
             src="/images/mike-mathieu-icon.jpeg"
@@ -32,7 +40,7 @@ import Page from "../layouts/Page.astro";
         >, <a
           href="https://www.linkedin.com/in/mrlerner"
           target="_blank"
-          class="underline hover:text-sun transition-colors duration-200"
+          class="underline hover:text-moon dark:hover:text-sun transition-colors duration-200"
           ><img
             class="w-6 h-6 rounded-full inline mx-1 align-middle"
             src="/images/matt-lerner-icon.jpeg"
@@ -42,7 +50,7 @@ import Page from "../layouts/Page.astro";
         >, and <a
           href="https://davepeck.org/about/"
           target="_blank"
-          class="underline hover:text-sun transition-colors duration-200"
+          class="underline hover:text-moon dark:hover:text-sun transition-colors duration-200"
           ><img
             class="w-6 h-6 rounded-full inline mx-1 align-middle"
             src="/images/dave-peck-icon.jpeg"
@@ -52,47 +60,47 @@ import Page from "../layouts/Page.astro";
         >.
       </p>
       <p>
-        Here at <span class="text-sun/85">Front Seat</span>, we work on
-        impactful projects that fall under the broad umbrella of “tech for
-        good.”
+        Here at <span class="text-moon/85 dark:text-sun/85">Front Seat</span>,
+        we work on impactful projects that fall under the broad umbrella of
+        “tech for good.”
       </p>
       <p>
-        We’re particularly interested in <span class="text-white"
-          >personal health</span
-        > and <span class="text-white">civic engagement</span>. We build tools
-        that help people lead healthier lives and participate more deeply in
+        We’re particularly interested in <span
+          class="text-black dark:text-white">personal health</span
+        > and <span class="text-black dark:text-white">civic engagement</span>.
+        Our work helps people lead healthier lives and connect more deeply with
         their communities.
       </p>
       <p>Our past projects include:</p>
       <ul class="list-disc mx-4 md:mx-8 space-y-4">
         <li>
-          <span class="text-white font-semibold"
+          <span class="text-black dark:text-white font-semibold"
             ><a
               href="https://www.walkscore.com"
               target="_blank"
-              class="underline hover:text-sun transition-colors duration-200"
+              class="underline hover:text-moon dark:hover:text-sun transition-colors duration-200"
               >Walk Score</a
             ></span
           >. The leading measure of neighborhood walkability shown on more than
           30,000 real estate websites.
         </li>
         <li>
-          <span class="text-white font-semibold"
+          <span class="text-black dark:text-white font-semibold"
             ><a
               href="https://www.twoscreensforteachers.org"
               target="_blank"
-              class="underline hover:text-sun transition-colors duration-200"
+              class="underline hover:text-moon dark:hover:text-sun transition-colors duration-200"
               >Two Screens For Teachers</a
             ></span
           >. Helping teachers with a second computer monitor during COVID so
           they can see their students on one screen and lesson plans on another.
         </li>
         <li>
-          <span class="text-white font-semibold"
+          <span class="text-black dark:text-white font-semibold"
             ><a
               href="https://davesredistricting.org/"
               target="_blank"
-              class="underline hover:text-sun transition-colors duration-200"
+              class="underline hover:text-moon dark:hover:text-sun transition-colors duration-200"
               >Dave’s Redistricting</a
             ></span
           >. Empowering citizens to advocate for fair and transparent
