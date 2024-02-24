@@ -12,8 +12,7 @@ export default {
         medium: "#6E6E6E",
         "light-medium": "#9E9E9E",
         sun: "#FFE24C",
-        moon: "#001db3", // inverted sun
-        "dark-almost": "#C0C0C0",
+        "light-sun": "#FFEDB3",
         almost: "#F5F5F5",
       },
       fontFamily: {
